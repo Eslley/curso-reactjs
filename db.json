@@ -1,15 +1,37 @@
 {
   "projects": [
     {
-      "name": "a",
-      "budget": "1",
+      "name": "Implementar CI/CD",
+      "budget": "10000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Mudar Hospedagem para o heroku",
+      "budget": "10000",
       "category": {
         "id": "1",
         "name": "Infra"
       },
       "cost": 0,
       "services": [],
-      "id": 1
+      "id": 3
+    },
+    {
+      "name": "Contratar Senior em Django",
+      "budget": "20000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [
