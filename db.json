@@ -1,21 +1,72 @@
 {
-    "projects": [],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Infra"
-        },
-        {
-            "id": 2,
-            "name": "Desenvolvimento"
-        },
-        {
-            "id": 3,
-            "name": "Design"
-        },
-        {
-            "id": 4,
-            "name": "Planejamento"
-        }
-    ]
+  "projects": [
+    {
+      "name": "teste",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "teste",
+      "cost": 0,
+      "services": [],
+      "category": {
+        "id": "Design",
+        "name": "Design"
+      },
+      "budget": "1212",
+      "id": 2
+    },
+    {
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "name": "teste2",
+      "budget": "200",
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "name": "teste2",
+      "budget": "200",
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "name": "teste2",
+      "budget": "200",
+      "cost": 0,
+      "services": [],
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
 }
