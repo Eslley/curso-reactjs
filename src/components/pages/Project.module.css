@@ -22,7 +22,7 @@
 .service_form_container {
     border-bottom: 1px solid #7a7a7a;
     margin-bottom: 1.2em;
-    padding: 1.2em;
+    padding-bottom: 1.2em;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
