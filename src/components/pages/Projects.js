@@ -7,7 +7,6 @@ function Projects() {
     let message = ''
     if(location.state) {
         message = location.state.message
-        console.log("veio")
     }
 
     return (
