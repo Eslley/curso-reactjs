@@ -7,8 +7,15 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 4000,
+      "services": [
+        {
+          "name": "Contratar DevOps",
+          "cost": "4000",
+          "description": "Contrato de um DevOps pleno",
+          "id": "9578605b-2d19-4170-b77b-1c035291de24"
+        }
+      ],
       "id": 2
     },
     {
