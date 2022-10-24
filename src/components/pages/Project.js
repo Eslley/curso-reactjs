@@ -7,6 +7,7 @@ import Container from '../layout/Container'
 import ProjectForm from '../project/ProjectForm'
 import Message from '../layout/Message'
 import ServiceForm from '../service/ServiceForm'
+import ServiceCard from '../service/ServiceCard'
 
 function Project() {
 
@@ -95,10 +96,16 @@ function Project() {
         })
             .then(res => res.json())
             .then(data => {
+                setShowServiceForm(false)
+                setProject(project)
                 setMessage('O projeto foi atualizado!')
                 setType('success')
             })
             .catch(err => console.log(err))
+    }
+
+    function removeService() {
+
     }
 
     return (
@@ -147,7 +154,19 @@ function Project() {
                         </div>
                         <h2>Serviços</h2>
                         <Container customClass="start">
-                            <p>Itens de serviços</p>
+                            {project.services.length > 0 && (
+                                project.services.map((service) => (
+                                    <ServiceCard 
+                                    key={service.id}
+                                    id={service.id}
+                                    name={service.name}
+                                    cost={service.cost}
+                                    description={service.description}
+                                    handleRemove={removeService}
+                                    />
+                                ))
+                            )}
+                            { project.services.length === 0 && <p>Não há serviços!</p>}
                         </Container>
                     </Container>
                 </div>
